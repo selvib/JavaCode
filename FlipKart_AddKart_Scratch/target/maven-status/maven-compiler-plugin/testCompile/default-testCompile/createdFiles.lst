@@ -1,0 +1,5 @@
+com\flipkart\TestCase\MyKartPageTest.class
+com\flipkart\TestCase\LoginPageTest.class
+com\flipkart\TestCase\ItemPageTest.class
+com\flipkart\TestCase\KartHomePageTest.class
+com\flipkart\TestCase\PlaceOrderPageTest.class

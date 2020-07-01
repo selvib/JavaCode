@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-19T00:53:16Z" name="Default suite" finished-at="2020-05-19T00:53:16Z" duration-ms="74">
+    <groups>
+    </groups>
+    <test started-at="2020-05-19T00:53:16Z" name="Default test" finished-at="2020-05-19T00:53:16Z" duration-ms="74">
+      <class name="Selvi.DemoMavenProject.AppieumTest">
+        <test-method signature="IOSApp()[pri:0, instance:Selvi.DemoMavenProject.AppieumTest@4e50c791]" started-at="2020-05-18T17:53:16Z" name="IOSApp" finished-at="2020-05-18T17:53:16Z" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IOSApp -->
+        <test-method signature="SelviAppAndrooid()[pri:0, instance:Selvi.DemoMavenProject.AppieumTest@4e50c791]" started-at="2020-05-18T17:53:16Z" name="SelviAppAndrooid" finished-at="2020-05-18T17:53:16Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelviAppAndrooid -->
+      </class> <!-- Selvi.DemoMavenProject.AppieumTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

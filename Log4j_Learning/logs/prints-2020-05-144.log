@@ -1,0 +1,10 @@
+17:51:52.833 [main] DEBUG beta.Samp - I Have Clicked A Button
+17:51:52.838 [main] ERROR beta.Samp - Im Error
+17:51:52.838 [main] INFO  beta.Samp - hello
+17:51:52.838 [main] FATAL beta.Samp - Im Fatal
+17:51:52.839 [main] WARN  beta.Samp - Im Warining
+18:18:50.692 [main] INFO  beta.Samp - I have opened Successfully
+07:52:59.604 [main] DEBUG alpha.Sample - Im Debug from Sample
+07:52:59.608 [main] ERROR alpha.Sample - Im Error
+07:52:59.608 [main] INFO  alpha.Sample - hello
+07:52:59.608 [main] FATAL alpha.Sample - Im Fatal

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<test thread-count="5" name="Regression_ThreePageTest">
+	
+		<classes>
+		
+			<class name="com.flipkart.TestCase.LoginPageTest" />
+			<class name="com.flipkart.TestCase.ItemPageTest" />
+			
+			<class name="com.flipkart.TestCase.KartHomePageTest" >
+			<methods> <exclude name="click_Add"></exclude></methods>
+			</class>
+				
+			<class name="com.flipkart.TestCase.MyKartPageTest" />
+			<class name="com.flipkart.TestCase.PlaceOrderPageTest" />
+			
+		</classes>
+
+	</test>
+
+</suite> 

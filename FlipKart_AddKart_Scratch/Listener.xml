@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+
+	<listeners>
+		<listener class-name="com.flipkart.TestBase.Listeners" />
+	</listeners>
+	
+	<parameter name="username" value="9994141567" />
+	<parameter name="password" value="9994141567" />
+	
+	<test name="Unit_Login">
+		<classes>
+			<class name="com.flipkart.TestCase.LoginPageTest" />
+		</classes>
+	</test>
+
+	<test name="MyKartPageTest_UnitTest">
+		<classes>
+			<class name="com.flipkart.TestCase.MyKartPageTest" />
+		</classes>
+	</test>
+
+	<test name="Unit_PlaceOrder">
+		<classes>
+			<class name="com.flipkart.TestCase.PlaceOrderPageTest" />
+		</classes>
+	</test>
+
+</suite> 

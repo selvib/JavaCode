@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="EndToEnd Framework" parallel="tests" >
+	<listeners>
+		<listener class-name="com.qa_academy.TestBase.Listeners" />
+	</listeners>
+	<test  name="LandingPageValidation">
+		<classes>
+			<class name="com.qa_academy.TestCase.LandingPageTest" />
+		</classes>
+	</test>
+
+	<test name="LoginValidation">
+		<classes>
+			<class name="com.qa_academy.TestCase.LoginTestCase" />
+		</classes>
+	</test>
+
+	<test name="LandingObjectsValidation">
+		<classes>
+			<class name="com.qa_academy.TestCase.LandingValidationTest" />
+		</classes>
+	</test>
+</suite>

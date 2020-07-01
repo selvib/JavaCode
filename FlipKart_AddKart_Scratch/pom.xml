@@ -1,0 +1,102 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>FlipKart_Scratch</groupId>
+	<artifactId>FlipKart_AddKart</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>1.7</maven.compiler.source>
+		<maven.compiler.target>1.7</maven.compiler.target>
+	</properties>
+
+	<profiles>
+
+		<!-- by profiling we can execute specific test suite from the maven command 
+			using mvn test -P(profile id) -->
+		<profile>
+			<id>Smoke</id>
+
+			<build>
+				<pluginManagement>
+					<plugins>
+						<plugin>
+							<!-- This surefire plugin used to execute all the test from Maven 
+								else we can execute one testcase -->
+							<groupId>org.apache.maven.plugins</groupId>
+							<artifactId>maven-surefire-plugin</artifactId>
+							<version>3.0.0-M4</version>
+
+							<configuration>
+								<!--inside suiteXmlFiles we can give multiple testng.xml files -->
+								<suiteXmlFiles>
+									<!--<suiteXmlFile>${suiteXmlFile}</suiteXmlFile> -->
+									<suiteXmlFile>GroupSmoke.xml</suiteXmlFile>
+								</suiteXmlFiles>
+							</configuration>
+
+						</plugin>
+					</plugins>
+				</pluginManagement>
+			</build>
+
+		</profile>
+	</profiles>
+
+	<dependencies>
+		<!-- This is for Selenium -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>3.141.59</version>
+		</dependency>
+
+		<!-- This is for TestNG -->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.1.0</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- This is for WebDriverManager -->
+		<dependency>
+			<groupId>io.github.bonigarcia</groupId>
+			<artifactId>webdrivermanager</artifactId>
+			<version>4.0.0</version>
+		</dependency>
+
+
+		<!-- This is for Extent Report -->
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>4.0.0</version>
+		</dependency>
+		<!-- This is for FileUtils for Screenshot -->
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.7</version>
+		</dependency>
+
+
+		<!-- This is for Apache Log4J -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>2.13.3</version>
+		</dependency>
+
+		<!-- This is for Apache Log4J -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-api</artifactId>
+			<version>2.13.3</version>
+		</dependency>
+
+	</dependencies>
+
+</project>

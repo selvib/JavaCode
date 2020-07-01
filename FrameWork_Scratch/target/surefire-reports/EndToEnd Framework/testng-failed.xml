@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [EndToEnd Framework]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" parallel="tests" name="LandingPageValidation(failed)" verbose="0">
+    <classes>
+      <class name="cucumber_Options.TestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- cucumber_Options.TestRunner -->
+    </classes>
+  </test> <!-- LandingPageValidation(failed) -->
+</suite> <!-- Failed suite [EndToEnd Framework] -->

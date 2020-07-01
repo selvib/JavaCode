@@ -1,0 +1,7 @@
+10:54:15.690 [TestNG-tests-2] INFO  java.lang.Class - Succesfully Initialized
+10:54:16.974 [TestNG-tests-1] INFO  java.lang.Class - Succesfully Initialized
+10:54:17.056 [TestNG-tests-3] INFO  java.lang.Class - Succesfully Initialized
+10:54:31.216 [TestNG-tests-1] INFO  java.lang.Class - Successfully Clicked Login
+10:54:31.705 [TestNG-tests-2] INFO  java.lang.Class - Successfully Login
+10:54:33.733 [TestNG-tests-2] INFO  java.lang.Class - Successfully Login
+10:55:21.247 [TestNG-tests-2] INFO  java.lang.Class - Succesfully Initialized

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="48" started-at="2020-05-19T12:48:33Z" finished-at="2020-05-19T12:48:33Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="48" started-at="2020-05-19T12:48:33Z" finished-at="2020-05-19T12:48:33Z">
+      <class name="Samp.Test_Ne.SeleniumSamTest">
+        <test-method status="PASS" signature="hello()[pri:0, instance:Samp.Test_Ne.SeleniumSamTest@7f560810]" name="hello" duration-ms="14" started-at="2020-05-19T05:48:33Z" finished-at="2020-05-19T05:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hello -->
+      </class> <!-- Samp.Test_Ne.SeleniumSamTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

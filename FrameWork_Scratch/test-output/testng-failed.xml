@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [EndToEnd Framework]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa_academy.TestBase.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="LoginValidation(failed)">
+    <classes>
+      <class name="com.qa_academy.TestCase.LoginTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="login_Test" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.qa_academy.TestCase.LoginTestCase -->
+    </classes>
+  </test> <!-- LoginValidation(failed) -->
+</suite> <!-- Failed suite [EndToEnd Framework] -->
